@@ -1,0 +1,24 @@
+2020-03-13 20:11:20: INFO: starting browser testaddcustomer 22
+2020-03-13 20:11:28: INFO: Login completed testaddcustomer 27
+2020-03-13 20:11:34: INFO: Customer page opening testaddcustomer 50
+2020-03-13 20:11:39: INFO: Customer second page opening testaddcustomer 53
+2020-03-13 20:11:44: INFO: All Input to the add page done testaddcustomer 67
+2020-03-13 20:11:51: INFO: Customer page opening testaddcustomer 50
+2020-03-13 20:11:55: INFO: Customer second page opening testaddcustomer 53
+2020-03-13 20:11:59: INFO: All Input to the add page done testaddcustomer 67
+2020-03-13 20:12:05: INFO: Customer page opening testaddcustomer 50
+2020-03-13 20:12:10: INFO: Customer second page opening testaddcustomer 53
+2020-03-13 20:12:14: INFO: All Input to the add page done testaddcustomer 67
+2020-03-13 20:12:15: INFO: All/Some of the test failed testaddcustomer 79
+2020-03-14 07:39:14: INFO: starting browser testaddcustomer 22
+2020-03-14 07:39:21: INFO: Login completed testaddcustomer 27
+2020-03-14 07:39:25: INFO: Customer page opening testaddcustomer 50
+2020-03-14 07:39:29: INFO: Customer second page opening testaddcustomer 53
+2020-03-14 07:39:33: INFO: All Input to the add page done testaddcustomer 67
+2020-03-14 07:39:39: INFO: Customer page opening testaddcustomer 50
+2020-03-14 07:39:43: INFO: Customer second page opening testaddcustomer 53
+2020-03-14 07:39:46: INFO: All Input to the add page done testaddcustomer 67
+2020-03-14 07:39:52: INFO: Customer page opening testaddcustomer 50
+2020-03-14 07:39:55: INFO: Customer second page opening testaddcustomer 53
+2020-03-14 07:39:59: INFO: All Input to the add page done testaddcustomer 67
+2020-03-14 07:40:00: INFO: All test passed testaddcustomer 76

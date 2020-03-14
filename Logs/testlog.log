@@ -1,0 +1,629 @@
+2020-03-05 21:55:13: INFO: starting Title test
+2020-03-05 21:55:13: INFO: Opening browser
+2020-03-05 21:55:16: INFO: Opening website
+2020-03-05 21:55:16: INFO: checking title
+2020-03-05 21:55:21: INFO: starting Login test
+2020-03-05 21:55:21: INFO: starting browser
+2020-03-05 21:55:21: INFO: starting browser
+2020-03-05 21:55:34: INFO: checking title after login
+2020-03-06 05:53:05: INFO: starting Title test
+2020-03-06 05:53:05: INFO: Opening browser
+2020-03-06 05:53:07: INFO: Opening website
+2020-03-06 05:53:07: INFO: checking title
+2020-03-06 05:53:12: INFO: starting Login test
+2020-03-06 05:53:12: INFO: starting browser
+2020-03-06 05:53:12: INFO: starting browser
+2020-03-06 05:53:25: INFO: checking title after login
+2020-03-06 06:01:39: INFO: starting Title test testtitle 17
+2020-03-06 06:01:39: INFO: Opening browser testtitle 19
+2020-03-06 06:01:43: INFO: Opening website testtitle 21
+2020-03-06 06:01:43: INFO: checking title testtitle 23
+2020-03-06 06:01:48: INFO: starting Login test testlogin 36
+2020-03-06 06:01:48: INFO: starting browser testlogin 38
+2020-03-06 06:01:48: INFO: starting browser testlogin 40
+2020-03-06 06:02:00: INFO: checking title after login testlogin 47
+2020-03-06 06:03:30: DEBUG: POST http://127.0.0.1:61454/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-06 06:03:30: DEBUG: Starting new HTTP connection (1): 127.0.0.1:61454 _new_conn 221
+2020-03-06 06:03:34: DEBUG: http://127.0.0.1:61454 "POST /session HTTP/1.1" 200 681 _make_request 428
+2020-03-06 06:03:34: DEBUG: Finished Request _request 440
+2020-03-06 06:03:34: INFO: starting Title test testtitle 17
+2020-03-06 06:03:34: INFO: Opening browser testtitle 19
+2020-03-06 06:03:34: DEBUG: POST http://127.0.0.1:61454/session/a2f3a0defd5c97ff6ffc0f8e15c6ff66/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 06:03:37: DEBUG: http://127.0.0.1:61454 "POST /session/a2f3a0defd5c97ff6ffc0f8e15c6ff66/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 06:03:37: DEBUG: Finished Request _request 440
+2020-03-06 06:03:37: INFO: Opening website testtitle 21
+2020-03-06 06:03:37: DEBUG: GET http://127.0.0.1:61454/session/a2f3a0defd5c97ff6ffc0f8e15c6ff66/title {} _request 388
+2020-03-06 06:03:37: DEBUG: http://127.0.0.1:61454 "GET /session/a2f3a0defd5c97ff6ffc0f8e15c6ff66/title HTTP/1.1" 200 29 _make_request 428
+2020-03-06 06:03:37: DEBUG: Finished Request _request 440
+2020-03-06 06:03:37: INFO: checking title testtitle 23
+2020-03-06 06:03:37: DEBUG: DELETE http://127.0.0.1:61454/session/a2f3a0defd5c97ff6ffc0f8e15c6ff66/window {} _request 388
+2020-03-06 06:03:37: DEBUG: http://127.0.0.1:61454 "DELETE /session/a2f3a0defd5c97ff6ffc0f8e15c6ff66/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 06:03:37: DEBUG: Finished Request _request 440
+2020-03-06 06:03:38: DEBUG: POST http://127.0.0.1:61476/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-06 06:03:38: DEBUG: Starting new HTTP connection (1): 127.0.0.1:61476 _new_conn 221
+2020-03-06 06:03:42: DEBUG: http://127.0.0.1:61476 "POST /session HTTP/1.1" 200 680 _make_request 428
+2020-03-06 06:03:42: DEBUG: Finished Request _request 440
+2020-03-06 06:03:42: INFO: starting Login test testlogin 36
+2020-03-06 06:03:42: INFO: starting browser testlogin 38
+2020-03-06 06:03:42: INFO: starting browser testlogin 40
+2020-03-06 06:03:42: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element/bd68b31d-9ca9-4a85-a7f8-05532453aebc/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "bd68b31d-9ca9-4a85-a7f8-05532453aebc"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element/bd68b31d-9ca9-4a85-a7f8-05532453aebc/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element/12c2d4cd-52a5-49a9-8440-01576e09bb54/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "12c2d4cd-52a5-49a9-8440-01576e09bb54"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element/12c2d4cd-52a5-49a9-8440-01576e09bb54/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-06 06:03:46: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 06:03:46: DEBUG: Finished Request _request 440
+2020-03-06 06:03:46: DEBUG: POST http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/element/c2a64f35-ccb4-4652-bc38-90d8686e5d94/click {"id": "c2a64f35-ccb4-4652-bc38-90d8686e5d94"} _request 388
+2020-03-06 06:03:50: DEBUG: http://127.0.0.1:61476 "POST /session/8711883ef2a4923dc250724e8992d132/element/c2a64f35-ccb4-4652-bc38-90d8686e5d94/click HTTP/1.1" 200 14 _make_request 428
+2020-03-06 06:03:50: DEBUG: Finished Request _request 440
+2020-03-06 06:03:55: DEBUG: GET http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/title {} _request 388
+2020-03-06 06:03:55: DEBUG: http://127.0.0.1:61476 "GET /session/8711883ef2a4923dc250724e8992d132/title HTTP/1.1" 200 50 _make_request 428
+2020-03-06 06:03:55: DEBUG: Finished Request _request 440
+2020-03-06 06:03:55: INFO: checking title after login testlogin 47
+2020-03-06 06:03:55: DEBUG: DELETE http://127.0.0.1:61476/session/8711883ef2a4923dc250724e8992d132/window {} _request 388
+2020-03-06 06:03:55: DEBUG: http://127.0.0.1:61476 "DELETE /session/8711883ef2a4923dc250724e8992d132/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 06:03:55: DEBUG: Finished Request _request 440
+2020-03-06 15:05:08: INFO: starting Title test testtitle 17
+2020-03-06 15:05:08: INFO: Opening browser testtitle 19
+2020-03-06 15:05:08: INFO: starting Login test testlogin 36
+2020-03-06 15:05:08: INFO: starting browser testlogin 38
+2020-03-06 15:05:08: INFO: starting browser testlogin 40
+2020-03-06 15:19:21: INFO: starting Title test testtitle 17
+2020-03-06 15:19:21: INFO: Opening browser testtitle 19
+2020-03-06 15:19:21: INFO: starting Login test testlogin 36
+2020-03-06 15:19:21: INFO: starting browser testlogin 38
+2020-03-06 15:19:21: INFO: starting browser testlogin 40
+2020-03-06 15:19:56: INFO: starting Title test testtitle 17
+2020-03-06 15:19:56: INFO: Opening browser testtitle 19
+2020-03-06 15:19:56: INFO: starting Login test testlogin 36
+2020-03-06 15:19:56: INFO: starting browser testlogin 38
+2020-03-06 15:19:56: INFO: starting browser testlogin 40
+2020-03-06 18:55:13: DEBUG: POST http://127.0.0.1:49867/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-06 18:55:13: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49867 _new_conn 221
+2020-03-06 18:55:18: DEBUG: http://127.0.0.1:49867 "POST /session HTTP/1.1" 200 680 _make_request 428
+2020-03-06 18:55:18: DEBUG: Finished Request _request 440
+2020-03-06 18:55:18: INFO: starting Title test testtitle 17
+2020-03-06 18:55:18: INFO: Opening browser testtitle 19
+2020-03-06 18:55:18: DEBUG: POST http://127.0.0.1:49867/session/0e56fe6c765568936615b07085077d58/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 18:55:52: DEBUG: http://127.0.0.1:49867 "POST /session/0e56fe6c765568936615b07085077d58/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:55:52: DEBUG: Finished Request _request 440
+2020-03-06 18:55:52: INFO: Opening website testtitle 21
+2020-03-06 18:55:52: DEBUG: GET http://127.0.0.1:49867/session/0e56fe6c765568936615b07085077d58/title {} _request 388
+2020-03-06 18:55:52: DEBUG: http://127.0.0.1:49867 "GET /session/0e56fe6c765568936615b07085077d58/title HTTP/1.1" 200 29 _make_request 428
+2020-03-06 18:55:52: DEBUG: Finished Request _request 440
+2020-03-06 18:55:52: INFO: checking title testtitle 23
+2020-03-06 18:55:52: DEBUG: DELETE http://127.0.0.1:49867/session/0e56fe6c765568936615b07085077d58/window {} _request 388
+2020-03-06 18:55:52: DEBUG: http://127.0.0.1:49867 "DELETE /session/0e56fe6c765568936615b07085077d58/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 18:55:52: DEBUG: Finished Request _request 440
+2020-03-06 18:55:52: DEBUG: POST http://127.0.0.1:49893/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-06 18:55:52: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49893 _new_conn 221
+2020-03-06 18:55:57: DEBUG: http://127.0.0.1:49893 "POST /session HTTP/1.1" 200 680 _make_request 428
+2020-03-06 18:55:57: DEBUG: Finished Request _request 440
+2020-03-06 18:55:57: INFO: starting Login test testlogin 36
+2020-03-06 18:55:57: INFO: starting browser testlogin 38
+2020-03-06 18:55:57: INFO: starting browser testlogin 40
+2020-03-06 18:55:57: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 18:55:58: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:55:58: DEBUG: Finished Request _request 440
+2020-03-06 18:55:58: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 18:55:58: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:55:58: DEBUG: Finished Request _request 440
+2020-03-06 18:55:58: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 18:55:58: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:55:58: DEBUG: Finished Request _request 440
+2020-03-06 18:55:58: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element/d59b1c7e-abeb-48fd-9ed3-e953a48fa033/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "d59b1c7e-abeb-48fd-9ed3-e953a48fa033"} _request 388
+2020-03-06 18:55:59: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element/d59b1c7e-abeb-48fd-9ed3-e953a48fa033/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:55:59: DEBUG: Finished Request _request 440
+2020-03-06 18:55:59: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 18:55:59: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:55:59: DEBUG: Finished Request _request 440
+2020-03-06 18:55:59: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 18:55:59: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:55:59: DEBUG: Finished Request _request 440
+2020-03-06 18:55:59: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element/e0066e17-76c0-4658-8316-cde68cf80739/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "e0066e17-76c0-4658-8316-cde68cf80739"} _request 388
+2020-03-06 18:55:59: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element/e0066e17-76c0-4658-8316-cde68cf80739/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:55:59: DEBUG: Finished Request _request 440
+2020-03-06 18:55:59: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-06 18:55:59: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:55:59: DEBUG: Finished Request _request 440
+2020-03-06 18:55:59: DEBUG: POST http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/element/a095c018-fa9f-4002-9b65-1ef8bcc61e72/click {"id": "a095c018-fa9f-4002-9b65-1ef8bcc61e72"} _request 388
+2020-03-06 18:56:11: DEBUG: http://127.0.0.1:49893 "POST /session/17cfd9e08fc8a9d51e46a6c4410c21f7/element/a095c018-fa9f-4002-9b65-1ef8bcc61e72/click HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:56:11: DEBUG: Finished Request _request 440
+2020-03-06 18:56:16: DEBUG: GET http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/title {} _request 388
+2020-03-06 18:56:16: DEBUG: http://127.0.0.1:49893 "GET /session/17cfd9e08fc8a9d51e46a6c4410c21f7/title HTTP/1.1" 200 50 _make_request 428
+2020-03-06 18:56:16: DEBUG: Finished Request _request 440
+2020-03-06 18:56:16: INFO: checking title after login testlogin 47
+2020-03-06 18:56:16: DEBUG: DELETE http://127.0.0.1:49893/session/17cfd9e08fc8a9d51e46a6c4410c21f7/window {} _request 388
+2020-03-06 18:56:16: DEBUG: http://127.0.0.1:49893 "DELETE /session/17cfd9e08fc8a9d51e46a6c4410c21f7/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 18:56:16: DEBUG: Finished Request _request 440
+2020-03-06 18:56:39: DEBUG: POST http://127.0.0.1:49919/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}} _request 388
+2020-03-06 18:56:39: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49919 _new_conn 221
+2020-03-06 18:56:44: DEBUG: http://127.0.0.1:49919 "POST /session HTTP/1.1" 200 730 _make_request 428
+2020-03-06 18:56:44: DEBUG: Finished Request _request 440
+2020-03-06 18:56:44: INFO: starting Title test testtitle 17
+2020-03-06 18:56:44: INFO: Opening browser testtitle 19
+2020-03-06 18:56:44: DEBUG: POST http://127.0.0.1:49919/session/66875d99-075a-4e6e-b9ea-15df97457d84/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 18:56:46: DEBUG: http://127.0.0.1:49919 "POST /session/66875d99-075a-4e6e-b9ea-15df97457d84/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:56:46: DEBUG: Finished Request _request 440
+2020-03-06 18:56:46: INFO: Opening website testtitle 21
+2020-03-06 18:56:46: DEBUG: GET http://127.0.0.1:49919/session/66875d99-075a-4e6e-b9ea-15df97457d84/title {} _request 388
+2020-03-06 18:56:46: DEBUG: http://127.0.0.1:49919 "GET /session/66875d99-075a-4e6e-b9ea-15df97457d84/title HTTP/1.1" 200 29 _make_request 428
+2020-03-06 18:56:46: DEBUG: Finished Request _request 440
+2020-03-06 18:56:46: INFO: checking title testtitle 23
+2020-03-06 18:56:46: DEBUG: DELETE http://127.0.0.1:49919/session/66875d99-075a-4e6e-b9ea-15df97457d84/window {} _request 388
+2020-03-06 18:56:48: DEBUG: http://127.0.0.1:49919 "DELETE /session/66875d99-075a-4e6e-b9ea-15df97457d84/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 18:56:48: DEBUG: Finished Request _request 440
+2020-03-06 18:56:51: DEBUG: POST http://127.0.0.1:49967/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}} _request 388
+2020-03-06 18:56:51: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49967 _new_conn 221
+2020-03-06 18:56:54: DEBUG: http://127.0.0.1:49967 "POST /session HTTP/1.1" 200 730 _make_request 428
+2020-03-06 18:56:54: DEBUG: Finished Request _request 440
+2020-03-06 18:56:54: INFO: starting Login test testlogin 36
+2020-03-06 18:56:54: INFO: starting browser testlogin 38
+2020-03-06 18:56:54: INFO: starting browser testlogin 40
+2020-03-06 18:56:54: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element/66693653-6a46-4c26-9f7c-de7e92d5fdc6/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "66693653-6a46-4c26-9f7c-de7e92d5fdc6"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element/66693653-6a46-4c26-9f7c-de7e92d5fdc6/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element/280298a1-5f67-4d3d-bf98-68371fe0895b/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "280298a1-5f67-4d3d-bf98-68371fe0895b"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element/280298a1-5f67-4d3d-bf98-68371fe0895b/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-06 18:56:56: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 18:56:56: DEBUG: Finished Request _request 440
+2020-03-06 18:56:56: DEBUG: POST http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/element/f2c79531-6587-4be0-a77f-0d75e31ff37a/click {"id": "f2c79531-6587-4be0-a77f-0d75e31ff37a"} _request 388
+2020-03-06 18:56:59: DEBUG: http://127.0.0.1:49967 "POST /session/512e87ea-c593-46e3-a06d-7ec4888a2653/element/f2c79531-6587-4be0-a77f-0d75e31ff37a/click HTTP/1.1" 200 14 _make_request 428
+2020-03-06 18:56:59: DEBUG: Finished Request _request 440
+2020-03-06 18:57:04: DEBUG: GET http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/title {} _request 388
+2020-03-06 18:57:04: DEBUG: http://127.0.0.1:49967 "GET /session/512e87ea-c593-46e3-a06d-7ec4888a2653/title HTTP/1.1" 200 50 _make_request 428
+2020-03-06 18:57:04: DEBUG: Finished Request _request 440
+2020-03-06 18:57:04: INFO: checking title after login testlogin 47
+2020-03-06 18:57:04: DEBUG: DELETE http://127.0.0.1:49967/session/512e87ea-c593-46e3-a06d-7ec4888a2653/window {} _request 388
+2020-03-06 18:57:05: DEBUG: http://127.0.0.1:49967 "DELETE /session/512e87ea-c593-46e3-a06d-7ec4888a2653/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 18:57:05: DEBUG: Finished Request _request 440
+2020-03-06 18:57:32: DEBUG: POST http://127.0.0.1:50018/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "internet explorer", "platformName": "windows"}}, "desiredCapabilities": {"browserName": "internet explorer", "version": "", "platform": "WINDOWS"}} _request 388
+2020-03-06 18:57:32: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50018 _new_conn 221
+2020-03-06 18:57:34: DEBUG: http://127.0.0.1:50018 "POST /session HTTP/1.1" 200 1041 _make_request 428
+2020-03-06 18:57:34: DEBUG: Finished Request _request 440
+2020-03-06 18:57:34: INFO: starting Title test testtitle 17
+2020-03-06 18:57:34: INFO: Opening browser testtitle 19
+2020-03-06 18:57:34: DEBUG: POST http://127.0.0.1:50018/session/94321e81-c048-4810-95c8-9963f5d6fb6e/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 18:57:34: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50018 _new_conn 221
+2020-03-06 19:39:06: DEBUG: POST http://127.0.0.1:50157/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-06 19:39:06: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50158 _new_conn 221
+2020-03-06 19:39:11: DEBUG: http://127.0.0.1:50157 "POST /session HTTP/1.1" 200 680 _make_request 428
+2020-03-06 19:39:11: DEBUG: Finished Request _request 440
+2020-03-06 19:39:11: DEBUG: http://127.0.0.1:50158 "POST /session HTTP/1.1" 200 680 _make_request 428
+2020-03-06 19:39:11: DEBUG: Finished Request _request 440
+2020-03-06 19:39:11: INFO: starting Title test testtitle 17
+2020-03-06 19:39:11: INFO: Opening browser testtitle 19
+2020-03-06 19:39:11: DEBUG: POST http://127.0.0.1:50157/session/36e0e8a09d5599f3bac57b61dcb78b2f/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 19:39:11: INFO: starting Login test testlogin 36
+2020-03-06 19:39:11: INFO: starting browser testlogin 38
+2020-03-06 19:39:11: INFO: starting browser testlogin 40
+2020-03-06 19:39:11: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50157 "POST /session/36e0e8a09d5599f3bac57b61dcb78b2f/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: INFO: Opening website testtitle 21
+2020-03-06 19:39:45: DEBUG: GET http://127.0.0.1:50157/session/36e0e8a09d5599f3bac57b61dcb78b2f/title {} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50157 "GET /session/36e0e8a09d5599f3bac57b61dcb78b2f/title HTTP/1.1" 200 29 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: INFO: checking title testtitle 23
+2020-03-06 19:39:45: DEBUG: DELETE http://127.0.0.1:50157/session/36e0e8a09d5599f3bac57b61dcb78b2f/window {} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/url HTTP/1.1" 200 14 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50157 "DELETE /session/36e0e8a09d5599f3bac57b61dcb78b2f/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element/e205b161-971d-4ad1-8672-8b318ebc2037/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "e205b161-971d-4ad1-8672-8b318ebc2037"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element/e205b161-971d-4ad1-8672-8b318ebc2037/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element/8f2ea9f7-4b94-4911-87d8-50a55c678c44/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "8f2ea9f7-4b94-4911-87d8-50a55c678c44"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element/8f2ea9f7-4b94-4911-87d8-50a55c678c44/value HTTP/1.1" 200 14 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-06 19:39:45: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element HTTP/1.1" 200 88 _make_request 428
+2020-03-06 19:39:45: DEBUG: Finished Request _request 440
+2020-03-06 19:39:45: DEBUG: POST http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/element/b969ca94-257e-4f2b-94b0-c66baa3edbba/click {"id": "b969ca94-257e-4f2b-94b0-c66baa3edbba"} _request 388
+2020-03-06 19:39:57: DEBUG: http://127.0.0.1:50158 "POST /session/057760ef0a2ca2c0662797837c4da06c/element/b969ca94-257e-4f2b-94b0-c66baa3edbba/click HTTP/1.1" 200 14 _make_request 428
+2020-03-06 19:39:57: DEBUG: Finished Request _request 440
+2020-03-06 19:40:02: DEBUG: GET http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/title {} _request 388
+2020-03-06 19:40:02: DEBUG: http://127.0.0.1:50158 "GET /session/057760ef0a2ca2c0662797837c4da06c/title HTTP/1.1" 200 50 _make_request 428
+2020-03-06 19:40:02: DEBUG: Finished Request _request 440
+2020-03-06 19:40:02: INFO: checking title after login testlogin 47
+2020-03-06 19:40:02: DEBUG: DELETE http://127.0.0.1:50158/session/057760ef0a2ca2c0662797837c4da06c/window {} _request 388
+2020-03-06 19:40:02: DEBUG: http://127.0.0.1:50158 "DELETE /session/057760ef0a2ca2c0662797837c4da06c/window HTTP/1.1" 200 12 _make_request 428
+2020-03-06 19:40:02: DEBUG: Finished Request _request 440
+2020-03-07 09:13:31: DEBUG: POST http://127.0.0.1:51754/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-07 09:13:31: DEBUG: Starting new HTTP connection (1): 127.0.0.1:51754 _new_conn 221
+2020-03-07 09:13:36: DEBUG: http://127.0.0.1:51754 "POST /session HTTP/1.1" 200 680 _make_request 428
+2020-03-07 09:13:36: DEBUG: Finished Request _request 440
+2020-03-07 09:13:36: INFO: starting Title test testtitle 17
+2020-03-07 09:13:36: INFO: Opening browser testtitle 19
+2020-03-07 09:13:36: DEBUG: POST http://127.0.0.1:51754/session/7320e345ab3016e387b9d612e672f73e/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-07 09:13:38: DEBUG: http://127.0.0.1:51754 "POST /session/7320e345ab3016e387b9d612e672f73e/url HTTP/1.1" 200 14 _make_request 428
+2020-03-07 09:13:38: DEBUG: Finished Request _request 440
+2020-03-07 09:13:38: INFO: Opening website testtitle 21
+2020-03-07 09:13:38: DEBUG: GET http://127.0.0.1:51754/session/7320e345ab3016e387b9d612e672f73e/title {} _request 388
+2020-03-07 09:13:38: DEBUG: http://127.0.0.1:51754 "GET /session/7320e345ab3016e387b9d612e672f73e/title HTTP/1.1" 200 29 _make_request 428
+2020-03-07 09:13:38: DEBUG: Finished Request _request 440
+2020-03-07 09:13:38: INFO: checking title testtitle 23
+2020-03-07 09:13:38: DEBUG: DELETE http://127.0.0.1:51754/session/7320e345ab3016e387b9d612e672f73e/window {} _request 388
+2020-03-07 09:13:38: DEBUG: http://127.0.0.1:51754 "DELETE /session/7320e345ab3016e387b9d612e672f73e/window HTTP/1.1" 200 12 _make_request 428
+2020-03-07 09:13:38: DEBUG: Finished Request _request 440
+2020-03-07 09:13:39: DEBUG: POST http://127.0.0.1:51773/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-07 09:13:39: DEBUG: Starting new HTTP connection (1): 127.0.0.1:51773 _new_conn 221
+2020-03-07 09:13:43: DEBUG: http://127.0.0.1:51773 "POST /session HTTP/1.1" 200 681 _make_request 428
+2020-03-07 09:13:43: DEBUG: Finished Request _request 440
+2020-03-07 09:13:43: INFO: starting Login test testlogin 36
+2020-03-07 09:13:43: INFO: starting browser testlogin 38
+2020-03-07 09:13:43: INFO: starting browser testlogin 40
+2020-03-07 09:13:43: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/url HTTP/1.1" 200 14 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element/59f38ebb-7e79-4139-ab8b-624e452176db/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "59f38ebb-7e79-4139-ab8b-624e452176db"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element/59f38ebb-7e79-4139-ab8b-624e452176db/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element/524e9756-6190-44be-a65d-bdf0851061c0/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "524e9756-6190-44be-a65d-bdf0851061c0"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element/524e9756-6190-44be-a65d-bdf0851061c0/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-07 09:13:45: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 09:13:45: DEBUG: Finished Request _request 440
+2020-03-07 09:13:45: DEBUG: POST http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/element/02ccd455-3a1c-4d9f-af80-6291b86dc48b/click {"id": "02ccd455-3a1c-4d9f-af80-6291b86dc48b"} _request 388
+2020-03-07 09:13:48: DEBUG: http://127.0.0.1:51773 "POST /session/1db4c3a8a93d4b54fb354a8e7475de86/element/02ccd455-3a1c-4d9f-af80-6291b86dc48b/click HTTP/1.1" 200 14 _make_request 428
+2020-03-07 09:13:48: DEBUG: Finished Request _request 440
+2020-03-07 09:13:53: DEBUG: GET http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/title {} _request 388
+2020-03-07 09:13:53: DEBUG: http://127.0.0.1:51773 "GET /session/1db4c3a8a93d4b54fb354a8e7475de86/title HTTP/1.1" 200 50 _make_request 428
+2020-03-07 09:13:53: DEBUG: Finished Request _request 440
+2020-03-07 09:13:53: INFO: checking title after login testlogin 47
+2020-03-07 09:13:53: DEBUG: DELETE http://127.0.0.1:51773/session/1db4c3a8a93d4b54fb354a8e7475de86/window {} _request 388
+2020-03-07 09:13:53: DEBUG: http://127.0.0.1:51773 "DELETE /session/1db4c3a8a93d4b54fb354a8e7475de86/window HTTP/1.1" 200 12 _make_request 428
+2020-03-07 09:13:53: DEBUG: Finished Request _request 440
+2020-03-07 15:29:38: DEBUG: POST http://127.0.0.1:54090/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}} _request 388
+2020-03-07 15:29:38: DEBUG: Starting new HTTP connection (1): 127.0.0.1:54090 _new_conn 221
+2020-03-07 15:29:43: DEBUG: http://127.0.0.1:54090 "POST /session HTTP/1.1" 200 681 _make_request 428
+2020-03-07 15:29:43: DEBUG: Finished Request _request 440
+2020-03-07 15:29:43: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:29:43: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:29:43: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:29:43: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/url {"url": "https://admin-demo.nopcommerce.com"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/url HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/a5ce6929-0079-45e7-817b-ee1d3962c652/value {"text": "Username", "value": ["U", "s", "e", "r", "n", "a", "m", "e"], "id": "a5ce6929-0079-45e7-817b-ee1d3962c652"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/a5ce6929-0079-45e7-817b-ee1d3962c652/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/d7e4988c-d106-4ef6-a362-4caa830c4532/value {"text": "Password", "value": ["P", "a", "s", "s", "w", "o", "r", "d"], "id": "d7e4988c-d106-4ef6-a362-4caa830c4532"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/d7e4988c-d106-4ef6-a362-4caa830c4532/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:46: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/4b62e09d-3b01-4174-8914-9dccbff9fa51/click {"id": "4b62e09d-3b01-4174-8914-9dccbff9fa51"} _request 388
+2020-03-07 15:29:46: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/4b62e09d-3b01-4174-8914-9dccbff9fa51/click HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:46: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: GET http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/title {} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "GET /session/2ae5f0a0ff4385767a4a83943f8093f5/title HTTP/1.1" 200 29 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/a5ce6929-0079-45e7-817b-ee1d3962c652/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "a5ce6929-0079-45e7-817b-ee1d3962c652"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/a5ce6929-0079-45e7-817b-ee1d3962c652/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/d7e4988c-d106-4ef6-a362-4caa830c4532/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "d7e4988c-d106-4ef6-a362-4caa830c4532"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/d7e4988c-d106-4ef6-a362-4caa830c4532/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-07 15:29:51: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:51: DEBUG: Finished Request _request 440
+2020-03-07 15:29:51: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/4b62e09d-3b01-4174-8914-9dccbff9fa51/click {"id": "4b62e09d-3b01-4174-8914-9dccbff9fa51"} _request 388
+2020-03-07 15:29:52: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/4b62e09d-3b01-4174-8914-9dccbff9fa51/click HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:52: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: GET http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/title {} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "GET /session/2ae5f0a0ff4385767a4a83943f8093f5/title HTTP/1.1" 200 29 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/33d27d62-8835-4f16-b4d5-6159301ef733/value {"text": "adm@yourstore.com", "value": ["a", "d", "m", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "33d27d62-8835-4f16-b4d5-6159301ef733"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/33d27d62-8835-4f16-b4d5-6159301ef733/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/23033f2c-1039-47ad-a79c-2acf00932b12/value {"text": "adm ", "value": ["a", "d", "m", " "], "id": "23033f2c-1039-47ad-a79c-2acf00932b12"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/23033f2c-1039-47ad-a79c-2acf00932b12/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:29:57: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/48f7d633-62c1-4428-918b-a9c37f07312a/click {"id": "48f7d633-62c1-4428-918b-a9c37f07312a"} _request 388
+2020-03-07 15:29:57: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/48f7d633-62c1-4428-918b-a9c37f07312a/click HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:29:57: DEBUG: Finished Request _request 440
+2020-03-07 15:30:02: DEBUG: GET http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/title {} _request 388
+2020-03-07 15:30:02: DEBUG: http://127.0.0.1:54090 "GET /session/2ae5f0a0ff4385767a4a83943f8093f5/title HTTP/1.1" 200 29 _make_request 428
+2020-03-07 15:30:02: DEBUG: Finished Request _request 440
+2020-03-07 15:30:02: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:30:02: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:30:02: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:02: DEBUG: Finished Request _request 440
+2020-03-07 15:30:02: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:30:02: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:02: DEBUG: Finished Request _request 440
+2020-03-07 15:30:02: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/33d27d62-8835-4f16-b4d5-6159301ef733/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "33d27d62-8835-4f16-b4d5-6159301ef733"} _request 388
+2020-03-07 15:30:03: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/33d27d62-8835-4f16-b4d5-6159301ef733/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:30:03: DEBUG: Finished Request _request 440
+2020-03-07 15:30:03: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:30:03: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:03: DEBUG: Finished Request _request 440
+2020-03-07 15:30:03: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:30:03: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:03: DEBUG: Finished Request _request 440
+2020-03-07 15:30:03: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/23033f2c-1039-47ad-a79c-2acf00932b12/value {"text": "adm", "value": ["a", "d", "m"], "id": "23033f2c-1039-47ad-a79c-2acf00932b12"} _request 388
+2020-03-07 15:30:03: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/23033f2c-1039-47ad-a79c-2acf00932b12/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:30:03: DEBUG: Finished Request _request 440
+2020-03-07 15:30:03: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-07 15:30:03: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:03: DEBUG: Finished Request _request 440
+2020-03-07 15:30:03: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/48f7d633-62c1-4428-918b-a9c37f07312a/click {"id": "48f7d633-62c1-4428-918b-a9c37f07312a"} _request 388
+2020-03-07 15:30:03: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/48f7d633-62c1-4428-918b-a9c37f07312a/click HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:30:03: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: GET http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/title {} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "GET /session/2ae5f0a0ff4385767a4a83943f8093f5/title HTTP/1.1" 200 29 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Email\"]"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/33d27d62-8835-4f16-b4d5-6159301ef733/value {"text": "adm@yourstore.com", "value": ["a", "d", "m", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "33d27d62-8835-4f16-b4d5-6159301ef733"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/33d27d62-8835-4f16-b4d5-6159301ef733/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "css selector", "value": "[id=\"Password\"]"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/23033f2c-1039-47ad-a79c-2acf00932b12/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "23033f2c-1039-47ad-a79c-2acf00932b12"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/23033f2c-1039-47ad-a79c-2acf00932b12/value HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element {"using": "xpath", "value": "//input[@class='button-1 login-button']"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element HTTP/1.1" 200 88 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:08: DEBUG: POST http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/element/48f7d633-62c1-4428-918b-a9c37f07312a/click {"id": "48f7d633-62c1-4428-918b-a9c37f07312a"} _request 388
+2020-03-07 15:30:08: DEBUG: http://127.0.0.1:54090 "POST /session/2ae5f0a0ff4385767a4a83943f8093f5/element/48f7d633-62c1-4428-918b-a9c37f07312a/click HTTP/1.1" 200 14 _make_request 428
+2020-03-07 15:30:08: DEBUG: Finished Request _request 440
+2020-03-07 15:30:13: DEBUG: GET http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/title {} _request 388
+2020-03-07 15:30:13: DEBUG: http://127.0.0.1:54090 "GET /session/2ae5f0a0ff4385767a4a83943f8093f5/title HTTP/1.1" 200 29 _make_request 428
+2020-03-07 15:30:13: DEBUG: Finished Request _request 440
+2020-03-07 15:30:13: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:30:13: INFO: Overall test passed testlogindatadriventest 80
+2020-03-07 15:30:13: DEBUG: DELETE http://127.0.0.1:54090/session/2ae5f0a0ff4385767a4a83943f8093f5/window {} _request 388
+2020-03-07 15:30:13: DEBUG: http://127.0.0.1:54090 "DELETE /session/2ae5f0a0ff4385767a4a83943f8093f5/window HTTP/1.1" 200 12 _make_request 428
+2020-03-07 15:30:13: DEBUG: Finished Request _request 440
+2020-03-07 15:33:19: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:33:19: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:33:19: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:34:24: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:34:24: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:34:24: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:34:38: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:38:13: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:38:13: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:38:13: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:38:28: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:40:44: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:40:44: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:40:44: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:40:59: INFO: checking title after login testlogindatadriventest 54
+2020-03-07 15:45:27: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:45:27: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:45:27: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:45:36: INFO: checking title after login testlogindatadriventest 55
+2020-03-07 15:49:58: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:49:58: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:49:58: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:50:08: INFO: checking title after login testlogindatadriventest 55
+2020-03-07 15:52:17: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:52:17: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:52:17: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:52:26: INFO: checking title after login testlogindatadriventest 55
+2020-03-07 15:54:22: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:54:22: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:54:22: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:54:32: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 15:55:22: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:55:22: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:55:22: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:55:32: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 15:55:32: INFO: This test passed testlogindatadriventest 61
+2020-03-07 15:57:46: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:57:46: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:57:46: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:57:57: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 15:57:57: INFO: This test passed testlogindatadriventest 61
+2020-03-07 15:59:14: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 15:59:14: INFO: starting browser testlogindatadriventest 39
+2020-03-07 15:59:14: INFO: starting browser testlogindatadriventest 41
+2020-03-07 15:59:24: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 15:59:24: INFO: This test passed testlogindatadriventest 61
+2020-03-07 16:00:25: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:00:25: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:00:25: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:00:35: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:00:35: INFO: This test passed testlogindatadriventest 61
+2020-03-07 16:05:50: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:05:50: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:05:50: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:06:00: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:06:00: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:08:02: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:08:02: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:08:02: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:08:12: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:08:12: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:19:27: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:19:27: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:19:27: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:19:36: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:19:36: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:19:43: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:19:43: INFO: This test passed testlogindatadriventest 75
+2020-03-07 16:23:10: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:23:10: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:23:10: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:23:20: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:23:20: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:23:26: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:23:26: INFO: This test passed testlogindatadriventest 75
+2020-03-07 16:27:15: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:27:15: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:27:15: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:27:25: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:27:25: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:27:32: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:27:32: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:34:25: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:34:25: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:34:25: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:34:35: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:34:35: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:34:41: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:34:41: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:34:46: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:34:46: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:34:52: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:34:52: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:34:52: INFO: Overall test passed testlogindatadriventest 88
+2020-03-07 16:37:18: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:37:18: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:37:18: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:37:28: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:37:28: INFO: This test passed testlogindatadriventest 60
+2020-03-07 16:37:34: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:37:34: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:37:40: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:37:40: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:37:46: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:37:46: INFO: This test passed testlogindatadriventest 76
+2020-03-07 16:37:46: INFO: Overall test passed testlogindatadriventest 88
+2020-03-07 16:41:59: INFO: starting Login test testlogindatadriventest 37
+2020-03-07 16:41:59: INFO: starting browser testlogindatadriventest 39
+2020-03-07 16:41:59: INFO: starting browser testlogindatadriventest 41
+2020-03-07 16:42:08: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:42:08: INFO: This test passed testlogindatadriventest 59
+2020-03-07 16:42:15: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:42:15: INFO: This test passed testlogindatadriventest 68
+2020-03-07 16:42:20: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:42:20: INFO: This test passed testlogindatadriventest 68
+2020-03-07 16:42:26: INFO: checking title after login testlogindatadriventest 56
+2020-03-07 16:42:26: INFO: This test passed testlogindatadriventest 68
+2020-03-07 16:42:26: INFO: Overall test passed testlogindatadriventest 77
+2020-03-10 20:37:20: INFO: starting Login test testlogindatadriventest 37
+2020-03-10 20:37:20: INFO: starting browser testlogindatadriventest 39
+2020-03-10 20:37:20: INFO: starting browser testlogindatadriventest 41
+2020-03-10 20:42:25: INFO: starting Login test testlogindatadriventest 37
+2020-03-10 20:42:25: INFO: starting browser testlogindatadriventest 39
+2020-03-10 20:42:25: INFO: starting browser testlogindatadriventest 41
+2020-03-10 20:42:34: INFO: checking title after login testlogindatadriventest 56
+2020-03-10 20:42:34: INFO: This test passed testlogindatadriventest 59
+2020-03-10 20:42:40: INFO: checking title after login testlogindatadriventest 56
+2020-03-10 20:42:40: INFO: This test passed testlogindatadriventest 68
+2020-03-10 20:42:46: INFO: checking title after login testlogindatadriventest 56
+2020-03-10 20:42:46: INFO: This test passed testlogindatadriventest 68
+2020-03-10 20:42:51: INFO: checking title after login testlogindatadriventest 56
+2020-03-10 20:42:51: INFO: This test passed testlogindatadriventest 68
+2020-03-10 20:42:51: INFO: Overall test passed testlogindatadriventest 77
+2020-03-11 09:48:04: INFO: starting Login test testlogindatadriventest 37
+2020-03-11 09:48:04: INFO: starting browser testlogindatadriventest 39
+2020-03-11 09:48:04: INFO: starting browser testlogindatadriventest 41
+2020-03-11 09:48:16: INFO: checking title after login testlogindatadriventest 56
+2020-03-11 09:48:16: INFO: This test passed testlogindatadriventest 59
+2020-03-11 09:48:23: INFO: checking title after login testlogindatadriventest 56
+2020-03-11 09:48:23: INFO: This test passed testlogindatadriventest 68
